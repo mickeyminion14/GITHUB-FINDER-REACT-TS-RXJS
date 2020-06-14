@@ -1,0 +1,25 @@
+.userCardContainer {
+
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    .userCard {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        background-color: whitesmoke !important;
+
+        .avatarImage {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    .cardAction {
+        justify-content: center;
+    }
+}
